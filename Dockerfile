@@ -1,13 +1,13 @@
 FROM ubuntu:22.04
 
-LABEL maintainer="TechDufus <https://techdufus.com>"
+LABEL maintainer="Linkyrex"
 
-ARG USER=techdufus
-ARG group=techdufus
+ARG USER=link
+ARG group=link
 ARG uid=1000
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV TZ="America/Chicago"
+ENV TZ="Thailand/Bangkok"
 
 USER ${USER}
 USER root
