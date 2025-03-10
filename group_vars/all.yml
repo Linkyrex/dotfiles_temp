@@ -1,20 +1,20 @@
 default_roles:
   - system
   # - 1password
-  - aldente
-  - asciiquarium
+  # - aldente
+  # - asciiquarium
   - bash
   - bat
   - btop
-  - discord
+  # - discord
   - docker
-  - flatpak
+  # - flatpak
   - fonts
   - fzf
   - gh
   - git
   - go
-  - hammerspoon
+  # - hammerspoon
   - helm
   - k8s
   - k9s
@@ -22,22 +22,22 @@ default_roles:
   - lazygit
   - lsd
   - lua
-  - nala
+  # - nala
   - ncdu
   - neofetch
   - neovim
   - nerdfetch
   - npm
   - nvm
-  - obsidian
+  # - obsidian
   - podman
   - pwsh
   - python
-  - raycast
+  # - raycast
   # - ruby
   # - rust
   - slides
-  - spotify
+  # - spotify
   - ssh
   - sshfs
   - starship
@@ -48,23 +48,23 @@ default_roles:
   - tmate
   - tmux
   # - tshark
-  - warp
+  # - warp
   - whalebrew
   # - zellij
   - zoxide
   - zsh
 
-git_user_name: "TechDufus"
+git_user_name: "Linkyrex"
 op:
   git:
     user:
       email: "op://Personal/GitHub/email"
-    allowed_signers: "op://Personal/TechDufus SSH/allowed_signers"
+    allowed_signers: "op://Personal/Linkyrex SSH/allowed_signers"
   ssh:
     github:
       techdufus:
         - name: id_ed25519
-          vault_path: "op://Personal/TechDufus SSH"
+          vault_path: "op://Personal/Linkyrex SSH"
         - name: raft-infra
           vault_path: "op://Raft/Raft-SSH"
 # FIXME: See `system/tasks/main.yml` for how to structure this var looping.
