@@ -1,4 +1,4 @@
-require('Linkyrex')
+require('techdufus')
 
 -- Automatically install lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

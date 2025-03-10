@@ -7,7 +7,7 @@ ARG group=ansible
 ARG uid=1000
 ARG DEBIAN_FRONTEND=noninteractive
 
-ENV TZ="Asia/Bangkok"
+ENV TZ="Thailand/Bangkok"
 
 USER ${USER}
 USER root
@@ -32,7 +32,7 @@ RUN adduser --quiet --disabled-password \
 
 RUN mkdir -p /etc/sudoers.d && \
   touch /etc/sudoers.d/${USER} && \
-  echo "%${USER} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.d/${USER} && \
+  echo "%${group} ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers.d/${USER} && \
   groupadd docker && \
   usermod -aG docker ${USER}
 

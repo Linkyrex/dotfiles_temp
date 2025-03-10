@@ -238,7 +238,7 @@ fi
 
 if ! [[ -d "$DOTFILES_DIR" ]]; then
   __task "Cloning repository"
-  _cmd "git clone --quiet https://github.com/Linkyrex/dotfiles_temp.git $DOTFILES_DIR"
+  _cmd "git clone --quiet https://github.com/TechDufus/dotfiles_temp.git $DOTFILES_DIR"
 else
   __task "Updating repository"
   _cmd "git -C $DOTFILES_DIR pull --quiet"

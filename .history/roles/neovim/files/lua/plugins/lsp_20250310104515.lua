@@ -12,12 +12,12 @@ return {
     config = function()
       -- cmp icons
       local cmp = require('cmp')
-      local icons = require('Linkyrex.core.icons')
+      local icons = require('techdufus.core.icons')
       -- local lspkind = require('lspkind')
       local luasnip = require('luasnip')
       local cmp_mapping = require('cmp.config.mapping')
       local cmp_types = require('cmp.types.cmp')
-      local utils = require('Linkyrex.core.utils')
+      local utils = require('techdufus.core.utils')
 
       require('luasnip.loaders.from_vscode').lazy_load()
 

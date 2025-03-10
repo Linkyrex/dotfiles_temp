@@ -62,7 +62,7 @@ default_roles:
     #allowed_signers: "op://Personal/Linkyrex SSH/allowed_signers"
 #  ssh:
  #   github:
-  #    Linkyrex:
+  #    techdufus:
    #     - name: id_ed25519
     #      vault_path: "op://Personal/Linkyrex SSH"
      #   - name: raft-infra
